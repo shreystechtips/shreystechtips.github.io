@@ -90,10 +90,10 @@ imgdiv img {
     display: run-in;
     width:30%;
     padding: 1px 2px 1px 2px;
-    min-width: 500px;
+    min-width: 320px;
 }
 .small{
-    min-width: 210px;
+    min-width: 105px;
 }
 
 
@@ -155,7 +155,6 @@ imgdiv:after {
 
 /*@media screen and (max-width: 356px) {*/
 
-/*
 @media screen and (max-width: 410px){
     imgdiv img{
         width: 100%;
@@ -176,6 +175,5 @@ imgdiv:after {
         padding: 0px 0px 0px 0px;
     }
 }
-*/
 
 
