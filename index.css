@@ -107,14 +107,20 @@ imgdiv:after {
      font-size: 25vw;;
   }
 }
-@media screen and (max-width: 356px) {
   #nav {
      max-height: 20px;
-      overflow-x: auto;
+      overflow-x: scroll;
+      overflow-y: hidden;
       white-space: nowrap;
       transition: max-height 0.5s;
+      -webkit-overflow-scrolling: touch;
+      &::-webkit-scrollbar {
+    display: none;
+    }
   }
+
 }
+/*
 @media screen and (min-width: 357px) {
   #nav {
      max-height: 500px;
@@ -123,5 +129,8 @@ imgdiv:after {
       white-space: normal;
   }
 }
+*/
+
+/*@media screen and (max-width: 356px) {*/
 
 
