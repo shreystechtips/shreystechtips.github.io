@@ -109,7 +109,7 @@ imgdiv:after {
 }
   #nav {
      max-height: 20px;
-      overflow-x: hidden;
+      overflow-x: auto;
       overflow-y: hidden;
       white-space: nowrap;
       transition: max-height 0.5s;
@@ -117,13 +117,21 @@ imgdiv:after {
       &::-webkit-scrollbar {
     display: none;
     }
+      ::-webkit-scrollbar { 
+    display: none; 
+}
   }
+/*
 
-@media screen and (min-width:716px){
+@media screen and (max-width:716px){
     #nav{
         overflow-x:scroll;
+        scrollbar{
+            display
+        }
     }
 }
+*/
 
 /*
 @media screen and (min-width: 357px) {
