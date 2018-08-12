@@ -38,8 +38,13 @@ html{
     font-family: <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">;
     position: fixed;
     top: 0;
-    width: 100%;
+    text-align: center;
+    width: 80%;
     margin-top: 0;
+/*
+    margin-left: 10%;
+    margin-right: 10%; 
+*/
 }
 .nav > li {
 	display: inline-block;
@@ -91,6 +96,7 @@ html{
 imgdiv{
     padding: 5px 5px 5px 5px;
     margin-top: 0px;
+    display: block;
 }
 imgdiv a {
     text-decoration: none;
@@ -144,6 +150,7 @@ imgdiv:after {
       overflow-x: auto;
       overflow-y: hidden;
       white-space: nowrap;
+      
       transition: max-height 0.5s;
       -webkit-overflow-scrolling: touch;
       &::-webkit-scrollbar {
@@ -153,6 +160,10 @@ imgdiv:after {
     display: none; 
 }
   }
+
+.topnav{
+    box-shadow: 0px 0px 20px #000000;
+}
 /*
 
 @media screen and (max-width:716px){
@@ -200,12 +211,12 @@ imgdiv:after {
     
 }
 
-@media screen and (max-width:454px){
+@media screen and (max-width:690px){
     .large-screen-view{
         display: none;
     }
 }
-@media screen and (min-width:454px){
+@media screen and (min-width:690px){
     .small-screen-view{
         display: none;
     }
@@ -218,8 +229,13 @@ imgdiv:after {
 hr{
     display: block; 
     width: 100%; 
-    margin-bottom: 30px;
-    border-top: 4px solid #fdad13;  
+    margin:0;
+    padding:15px 0px 15px 0px;
+    border-top: 4px solid #fdad13;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    
 }
 
 
@@ -296,6 +312,24 @@ a.button{
     text-decoration: none;
     color: initial;
 }
+.sponsorus{
+    text-decoration: none; 
+    padding: 5px; 
+    font-size: 20px;
+    border-radius: 10px; 
+    border-color: black;
+    display:inline-block;
+    outline: none;
+    text-align: center;
+}
+.sponsorus:hover{
+    background-color:#4F4E4F;
+    border-color: #4F4E4F;
+    color: #ffffff;
+    }
 
+.footer-col{
+    width: 32%;
+}
     
 
