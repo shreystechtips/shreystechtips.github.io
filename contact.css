@@ -1,7 +1,11 @@
 html{
    background-attachment: scroll;
-    height: auto; margin: 1% .5% 1% .5%; 
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); background-color: rgba(232, 232, 232, .3);
+    height: auto; 
+/*
+    margin: 1% .5% 1% .5%; 
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+*/
+    background-color: rgba(232, 232, 232, .3);
     padding-bottom: 30px;
 }
 input{
