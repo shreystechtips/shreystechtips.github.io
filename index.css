@@ -51,7 +51,7 @@ html{
 } 
 .nav > li > a {
 	text-decoration: none;
-	color: #fdad13;
+	color: #f21d09;
     overflow-x: auto;
 /*	text-shadow: 1px
     0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;*/
@@ -59,7 +59,7 @@ html{
     font-weight: bold;
 }
 .nav > li > a:hover {
-	color: #d5401b;
+	color: #fdad13;
 }
 .firsttest {
 	background-color: #ffffff;
@@ -326,23 +326,42 @@ a.button{
 }
 .sponsorus{
     text-decoration: none; 
-    padding: 5px; 
+    padding: 5px;
+    word-break: keep-all;
     font-size: 20px;
     border-radius: 10px; 
-    border-color: black;
+    border-color: red;
     display:inline-block;
-    outline: none;
+    outline: red;
+    color: white;
+    background-color: red;
     text-align: center;
 }
 .sponsorus:hover{
     background-color:#4F4E4F;
     border-color: #4F4E4F;
     color: #ffffff;
-    }
+}
 
 .footer-col{
     width: 32%;
+    color: white;
 }
+.footer-col > a{
+    color: white;
+}
+.footer-col > a > img{
+    filter: invert(100%);
+}
+.large-screen-view > .footer-col{
+    font-size: 2vw;
+
+@media screen and (min-width:1000px){
+    .large-screen-view > .footer-col{
+    font-size: 50px;
+}
+}
+
 
     
 
