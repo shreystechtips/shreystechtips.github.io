@@ -27,7 +27,7 @@ html{
 */
 .nav {
 
-	background-color: #ffffff;
+	
 
     opacity: 1;
 	color: #ffffff;
@@ -36,24 +36,25 @@ html{
 	text-align: center;
 	padding: 20px 0px 20px 0px;
     font-family: <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">;
-    position: fixed;
+    overflow-x: auto;
     top: 0;
-    text-align: center;
-    width: 80%;
-    margin-top: 0;
+    margin-top: 0;    
 /*
     margin-left: 10%;
     margin-right: 10%; 
 */
 }
 .nav > li {
-	display: inline-block;
+	display: inline;
+    overflow-x: auto;
 	padding: 0 25px 0 25px;
 } 
 .nav > li > a {
 	text-decoration: none;
 	color: #fdad13;
-/*	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;*/
+    overflow-x: auto;
+/*	text-shadow: 1px
+    0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;*/
 	font-size: 20px;
     font-weight: bold;
 }
@@ -211,13 +212,24 @@ imgdiv:after {
     
 }
 
-@media screen and (max-width:690px){
+@media screen and (max-width:684px){
     .large-screen-view{
         display: none;
     }
 }
 @media screen and (min-width:690px){
     .small-screen-view{
+        display: none;
+    }
+}
+
+@media screen and (max-width:684px){
+    .bignav{
+        display: none;
+    }
+}
+@media screen and (min-width:690px){
+    .smallnav{
         display: none;
     }
 }
@@ -331,5 +343,6 @@ a.button{
 .footer-col{
     width: 32%;
 }
+
     
 

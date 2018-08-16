@@ -101,35 +101,69 @@
     
    
 
-<table class="topnav" class="whitespace" style="margin: 0; padding: 0; color: white; margin: 0 0 0 0; padding: 0 0 0 0;background-color: #ffffff;width: 100%;position: fixed;top:0;">
-        <tr style="margin: 0; padding: 0;background-color: #ffffff; height: 60px;">
-        <th style="margin: 0; padding:0px 10px 0px 10px; width: 10%;background-color: #ffffff;">
-            <div style="width: 10%; margin: 0px 5px 0px 0px; background-color: #ffffff; z-index: 1;">
+<table class="topnav bignav" class="whitespace" style="margin: 0; padding: 0; color: white;background-color: #ffffff;position: fixed;top:0;width: auto;width:100%;">
+        <tr style="margin: 0; padding: 0;background-color: #ffffff; height: 60px;width: 100%;">
+        <th style="padding:0px 0px 0px 10px; background-color: #ffffff; width: 10%;">
+            <div style="width: 10%;background-color: #ffffff;">
                 <a href=#home>
-            <img src="img/nrglogo.png" style="max-height: 60px; position: fixed;top:0;background-color: #ffffff; z-index: 1;">
+            <img src="img/nrglogo.png" style="max-height: 60px; position: fixed;top:0;background-color: #ffffff;margin:0; left:1;">
                     </a>
                 </div>
         </th>
-    <th>
-        <div style="width: 80%;">
-<ul class="nav" id="nav" style="z-index: 0;">
-    <li style="padding-left: 10px; margin-left: 10px; margin-right: 15px; padding-right: 10px;"><a href="#home">Home</a></li>
-    <li><a href="#aboutus">Our Mission</a></li>
-    <li><a href="#sponsors">Sponsors</a></li>
-    <li><a href="#photos">Photos</a></li>
-    <li style="padding-right: 5px;"><a href="wiki.html">Wiki</a></li>
+    <th style="width: 80%;margin: 0;top: 0;">
+        <div style="overflow-x: auto;color: black;top: 0; position: fixed;width: 80%;">
+<ul  class="nav" id="nav"  >
+<!--    <li style="padding-left: 10px; margin-left: 10px; margin-right: 15px; padding-right: 10px;"><a href="#home">Home</a></li>-->
+    <li style="padding-left: 0;overflow-x: auto;"><a href="#aboutus">Our Mission</a></li>
+    <li style="padding-left: 0;overflow-x: auto;"><a href="#sponsors">Sponsors</a></li>
+    <li style="padding-left: 0;overflow-x: auto;"><a href="#photos">Photos</a></li>
+    <li style="padding-right: 0px;overflow-x: auto;"><a href="wiki.html">Wiki</a></li>
   <!---  <li><a href="#other">Other</a></li> --->
 </ul>
             </div>
         </th>
-        <th style="margin: 0; padding:0px 10px 0px 10px; width: 10%;background-color: #ffffff;">
-            <div style="width: 10%; margin: 0px 0px 0px 0px; background-color: #ffffff; z-index: 2; ">
-                <a href=#home>
-            <button style="margin-right: 0;" onclick="window.location.href='contact.html'" 
+            
+        <th style="padding:0px 0px 0px 0px;background-color: #ffffff; right:0;top: 0;width: auto;">
+            <div style="background-color: #ffffff; ">             
+            <button onclick="window.location.href='contact.html'" 
             class = "sponsorus">Donate</button>
+                   
+                </div>
+        </th>
+    </tr>
+    </table>
+<table class="topnav smallnav" class="whitespace" style="margin: 0; padding: 0; color: white;background-color: #ffffff;position: fixed;top:0;width: auto;width:100%;">
+        <tr style="margin: 0; padding: 0;background-color: #ffffff; height: 60px;width: 100%;">
+        <th style="padding:0px 0px 0px 10px; background-color: #ffffff; width: 15%;">
+            <div style="width: 15%;background-color: #ffffff;">
+                <a href=#home>
+            <img src="img/nrglogo.png" style="max-height: 60px; position: fixed;top:0;background-color: #ffffff;margin:0; left:1;">
                     </a>
                 </div>
         </th>
+    <th style="width: 80%;margin: 0;top: 0;right: 0">
+        <div style="overflow-x: auto;color: black;top: 0; position: fixed;width: 80%;right: 0">
+<ul  class="nav" id="nav"  >
+<!--    <li style="padding-left: 10px; margin-left: 10px; margin-right: 15px; padding-right: 10px;"><a href="#home">Home</a></li>-->
+    <li style="padding-left: 0;overflow-x: auto;"><a href="#aboutus">Our Mission</a></li>
+    <li style="padding-left: 0;overflow-x: auto;"><a href="#sponsors">Sponsors</a></li>
+    <li style="padding-left: 0;overflow-x: auto;"><a href="#photos">Photos</a></li>
+    <li style="padding-left: 0px;overflow-x: auto;"><a href="wiki.html">Wiki</a></li>
+    <li style="padding-right: 0px;padding-left: 0; overflow-x: auto;"><a href="#sponsorus">Donate</a></li>
+  <!---  <li><a href="#other">Other</a></li> --->
+</ul>
+            </div>
+        </th>
+            
+<!--
+        <th style="padding:0px 0px 0px 0px;background-color: #ffffff; right:0;top: 0;width: auto;">
+            <div style="background-color: #ffffff; ">             
+            <button onclick="window.location.href='contact.html'" 
+            class = "sponsorus">Donate</button>
+                   
+                </div>
+        </th>
+-->
     </tr>
     </table>
 
@@ -222,11 +256,11 @@
     <footer style="padding: 10px 0px 10px 0px; background-color: rgba(253, 173, 19, 1) ; border-top: 5px; border-top-color: gray; border-top-style: solid; display: grid; margin: 0; width: 100%;">
         <table class="large-screen-view" style="width: 100%; margin: none;">
             <tr>
-                <th class="footer-col" style="margin-left: 5px; font-weight: 1000; font-size: 20px; text-align: left;">&copy; Newport Robotics 948</th>
+                <th class="footer-col" style="margin-left: 5px; font-weight: 1000; font-size: 2vw; text-align: left;">&copy; Newport Robotics 948</th>
                 <th class="footer-col" style="margin: 0px; font-weight: 1000; font-size: 20px; text-align: center; margin-top: 0;margin-bottom: 0px"><a href="https://www.instagram.com/nrg_948/" rel="noopener noreferrer" target="_blank"><img src="img/insta_logo.png" alt="Instagram" style="width: 10%; margin: 0px;padding: 0px; top: 50%;" ></a>
                 <a href="https://twitter.com/NRG948" rel="noopener noreferrer" target="_blank"><img src="img/twitter_logo.png" alt="Instagram" style="width: 10%; margin-left: 10px;padding: 0px; top: 50%;"></a>
                 <a href="https://www.facebook.com/FIRSTnrg948/" rel="noopener noreferrer" target="_blank"><img src="img/facebook_logo.svg" alt="Instagram" style="width: 10%; margin-left: 10px;padding: 0px; top: 50%;"></a></th>
-                <th class="footer-col" style="margin-right: 5px; text-align:right;"><a style="font-weight: 1000; font-size: 20px; text-decoration: none;color: black;" href="contact.html">Contact Us</a></th>
+                <th class="footer-col" style="margin-right: 5px; text-align:right;"><a style="font-weight: 1000; font-size: 2vw;  text-decoration: none;color: black;" href="contact.html">Contact Us</a></th>
 <!--                <th style="margin: 2px 2px 5px 2px; font-weight: 1000; font-size: 20px;text-align: right;">Website by NRG IT</th>-->
             </tr>
         </table>
