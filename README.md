@@ -1,2 +1,1 @@
-# shreystechtips.github.io
-My Personal Site
+# NRG948.github.io
